@@ -121,7 +121,7 @@ def mfx():
         mh = exp(mh,i)
     elif len(mh) > 32:
         mh = inp(mh,i)
-    print(len(mh))
     print(mh)
+    print()
     mfx()
 mfx()
